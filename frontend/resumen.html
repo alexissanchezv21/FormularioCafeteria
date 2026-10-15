@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del Pedido</title>
+    <link rel="stylesheet" href="css/resumen.css">
+</head>
+<body>
+    <div class="ticket-contenedor">
+        
+        <header class="encabezado-ticket">
+            <h1>¡Pedido Confirmado!</h1>
+        </header>
+
+        <div class="cuerpo-ticket">
+            <div class="fila-dato">
+                <strong>Cliente:</strong>
+                <span id="cliente"></span>
+            </div>
+            <div class="fila-dato">
+                <strong>Correo:</strong>
+                <span id="correo"></span>
+            </div>
+            
+            <hr class="separador">
+            
+            <div class="fila-dato">
+                <strong>Producto:</strong>
+                <span id="producto"></span>
+            </div>
+            <div class="fila-dato">
+                <strong>Cantidad:</strong>
+                <span id="cantidad"></span>
+            </div>
+            <div class="fila-dato">
+                <strong>Tamaño:</strong>
+                <span id="tamanio"></span>
+            </div>
+            <div class="fila-dato">
+                <strong>Para llevar:</strong>
+                <span id="llevar"></span>
+            </div>
+            
+            <hr class="separador">
+            
+            <div class="fila-dato observacion-caja">
+                <strong>Observaciones:</strong>
+                <span id="observacion"></span>
+            </div>
+
+            <div class="mensaje-final">
+                <p>Su pedido ha sido recibido con éxito en Cafetería Feku.</p>
+                <a href="/" class="btn-volver">Hacer otro pedido</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/scriptt.js"></script>
+</body>
+</html>

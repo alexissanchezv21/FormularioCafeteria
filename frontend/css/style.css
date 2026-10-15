@@ -1,0 +1,48 @@
+body.fondo-pantalla {
+    background-color: #ffe4c4;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-principal, .cuerpo-formulario {
+    background-color: #f7f5f0;
+}
+
+.encabezado {
+    background-color: #4e342e;
+    color: #ffe4c4;
+}
+
+.titulo {
+    color: #ffe4c4;
+    font-weight: bold;
+}
+
+.imagen {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.entrada-texto {
+    background-color: #eddac6 !important;
+    border: 1px solid #4e342e !important;
+    color: #333;
+}
+
+.entrada-texto:focus {
+    background-color: #e5cdb5 !important;
+    box-shadow: 0 0 0 0.25rem rgba(78, 52, 46, 0.25) !important;
+}
+
+.botones button {
+    background-color: #4e342e;
+    color: #ffe4c4;
+    font-weight: bold;
+    border: none;
+}
+
+.botones button:hover {
+    background-color: #3b2722;
+    color: white;
+}

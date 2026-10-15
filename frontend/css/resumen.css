@@ -1,0 +1,95 @@
+body {
+    background-color: #ffe4c4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.ticket-contenedor {
+    background-color: #f7f5f0;
+    border: 2px solid #4e342e;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(78, 52, 46, 0.2);
+    width: 90%;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.encabezado-ticket {
+    background-color: #4e342e;
+    color: #ffe4c4;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.encabezado-ticket h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cuerpo-ticket {
+    padding: 30px;
+    color: #333;
+}
+
+.fila-dato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed #d0c4b8;
+    font-size: 16px;
+}
+
+.fila-dato strong {
+    color: #4e342e;
+}
+
+.observacion-caja {
+    display: block;
+    border-bottom: none;
+}
+
+.observacion-caja span {
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-style: italic;
+}
+
+.separador {
+    border: none;
+    border-top: 2px solid #4e342e;
+    margin: 20px 0;
+}
+
+.mensaje-final {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mensaje-final p {
+    font-weight: bold;
+    color: #4e342e;
+    margin-bottom: 20px;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4e342e;
+    color: #ffe4c4;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #3b2722;
+    color: white;
+}
